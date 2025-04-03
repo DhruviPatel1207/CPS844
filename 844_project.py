@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -12,7 +11,6 @@ from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.svm import SVC 
 from sklearn.metrics import accuracy_score, classification_report, mean_squared_error, r2_score
-from apyori import apriori
 
 # Load dataset
 data = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv", delimiter=';')
